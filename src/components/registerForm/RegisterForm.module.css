@@ -1,0 +1,49 @@
+.form {
+    max-width: 30rem;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+
+}
+
+.formLabel {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color:rgb(119, 119, 252);
+}
+
+.formField {
+    border: none;
+    border-bottom: 1px solid rgb(119, 119, 252);
+    padding-bottom: 0.25rem;
+    outline: none;
+}
+
+.formFieldError {
+    border-bottom: 1px solid #e11d48;
+}
+
+.formFieldErrorMessage {
+    color: #e11d48;
+    font-size: small;
+}
+
+.formActions {
+    display: flex;
+    justify-content: center;
+}
+
+.formSubmitBtn {
+    cursor: pointer;
+    padding: 0.7rem;
+    min-width: 5rem;
+    background-color: rgb(119, 119, 252);;
+    color: #f3e8ff;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+}
